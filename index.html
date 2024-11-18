@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpion</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="game-container">
+            <div class="square" data-index="0"></div>
+            <div class="square" data-index="1"></div>
+            <div class="square" data-index="2"></div>
+            <div class="square" data-index="3"></div>
+            <div class="square" data-index="4"></div>
+            <div class="square" data-index="5"></div>
+            <div class="square" data-index="6"></div>
+            <div class="square" data-index="7"></div>
+            <div class="square" data-index="8"></div>
+        </div>
+        <p>Joueur <span id="p1Char"></span>: <span id="scoreP1">0</span></p>
+        <p>Joueur <span id="p2Char"></span>: <span id="scoreP2">0</span></p>
+        <div class="settings">
+            <input type="text" name="player1Char" id="player1Char" placeholder="Exemple: X">
+            <input type="text" name="player2Char" id="player2Char" placeholder="Exemple: O">
+            <button class="saveChange">Save change</button>
+        </div>
+    </main>
+</body>
+
+</html>
