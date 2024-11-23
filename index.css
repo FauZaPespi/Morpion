@@ -20,6 +20,7 @@ main {
     grid-template-columns: repeat(3, 100px);
     gap: 10px;
     margin: 20px auto;
+    justify-content: center;
 }
 
 .square {
